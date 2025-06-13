@@ -1,24 +1,24 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: staging-customerName-projectName-frontend-ingress
-  namespace: staging-customerName-projectName-frontend
+  name: staging-monnom-MonApplication-frontend-ingress
+  namespace: staging-monnom-MonApplication-frontend
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt-production
 spec:
   ingressClassName: nginx
   tls:
     - hosts:
-        - staging.example.flapi.org
-      secretName: staging-customerName-projectName-frontend-tls
+        - staging.monsousdomain2.flapi.org
+      secretName: staging-monnom-MonApplication-frontend-tls
   rules:
-    - host: staging.example.flapi.org
+    - host: staging.monsousdomain2.flapi.org
       http:
         paths:
           - pathType: Prefix
             path: '/'
             backend:
               service:
-                name: staging-customerName-projectName-frontend-service
+                name: staging-monnom-MonApplication-frontend-service
                 port:
                   number: 3000

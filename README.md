@@ -1,4 +1,4 @@
-# Flapi - customerName projectName - Web / Mobile / Desktop
+# Flapi - monnom MonApplication - Web / Mobile / Desktop
 
 ## 🛠 Tech Stack
 
@@ -69,9 +69,9 @@ Pour plus de détails sur les conventions de commit, consultez : [Conventional C
 
 ## 📚 Application URL to domains of different environments - WebSite
 
-- Development-Remote : https://dev.example.flapi.org
-- Staging : https://staging.example.flapi.org
-- Production : https://example.flapi.org
+- Development-Remote : https://dev.monsousdomain2.flapi.org
+- Staging : https://staging.monsousdomain2.flapi.org
+- Production : https://monsousdomain2.flapi.org
 
 ## 📚 Applicatin URL - Mobile
 
